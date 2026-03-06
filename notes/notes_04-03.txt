@@ -1,0 +1,44 @@
+Conceitos:
+
+OBJETO: 
+-instacia de uma classe
+-eh em tempo de execucao
+
+ClASSE:
+
+-definir as caracteristicas de seus objetos
+-informacoes - ATRIBUTO
+-comportamento - METODO
+-eh em tempo de programacao
+
+boa pratica> atibutos - privados, deixe public os metodos
+
+Se encontrar uma imagem com 3 blocos sempre pode ser classe ou objetos
+CLASSE - tres retangulos, porem sem sublinhado
+OBJETO - sublinhado
+
+
+!Como rodar pelo terminal!
+
+cd para o diretoria que esta o main a ser compilado
+"cd /ex/"
+
+utilizar o comando javac para compilar o codigo
+"javac ex1.java"
+
+comando java para rodar o codigo compilado
+"java ex1"
+(agora sem .java) n sei pq
+
+utilizando o exemplo da pg 14 da segunda aula d exemplo
+
+caso fosse utilizado a setenca: conta1 = conta2
+
+nesse caso conta 2 teria sua referencia transferida para a mesma transferencia da conta1
+
+dessa forma a primeira referencia criada para conta1 se perderia (garbage collector)
+
+e a partir desse momemnto a referencia de uma servera para a outra
+
+isso ocorre pois a referrencia eh um endereco alocado para guardar os dados dos atributos de um objeto
+logo utilizar um metodo de either sera com um trilho afunilado para o mesmo destino.
